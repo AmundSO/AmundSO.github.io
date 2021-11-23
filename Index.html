@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Konspirasjonsteori.css">
+   
+    <style>
+
+    .ulikeKonspirasjonsteorier{
+            display: flex;
+            background: #1B365C;
+            padding: 50px;
+            column-gap: 20px;
+            grid-area: ulikeKonspirasjonsteorier;
+            margin: 30px;
+        
+    }
+
+
+
+    .jordaerflat{
+         
+            background: #FFF4A7;
+            padding: 30px;
+            font-size: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 6px;
+            border-radius: 15px 15px 15px 15px;
+            box-shadow: 15px 20px 15px rgb(20, 20, 20);
+            grid-area: jordaerflat;
+            width: 24vw;
+            height: 60vh;
+        }
+
+    .monelanding{
+           
+        
+            background: #FFF4A7;
+            padding: 30px;
+            font-size: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 6px;
+            border-radius: 15px 15px 15px 15px;
+            box-shadow: 15px 20px 15px rgba(20, 20, 20);
+            grid-area: månelanding;
+            width: 24vw;
+            height: 60vh;
+        }
+
+    .terrorangrepet{
+       
+            background: #FFF4A7;
+            padding: 30px;
+            font-size: 12px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 6px;
+            border-radius: 15px 15px 15px 15px;
+            box-shadow: 15px 20px 15px rgba(20, 20, 20); 
+            grid-area: terrorangrepet;
+            width: 24vw;
+            height: 60vh;
+        }
+
+    .Konspirasjonsteori{
+            background: #FFF4A7;       
+            font-size: 16px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 230px;
+            width: 70vw;
+            height: 30vh;
+            text-align: center;
+            border-radius: 15px 15px 15px 15px;
+            box-shadow: 15px 20px 15px rgba(20, 20, 20);
+            grid-area: Konspirasjonsteori;
+        }
+
+    .Overskrift{
+            color: #FFF4A7;
+            text-align: center;
+            align-self: stretch;
+            height: 35vh;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 4vw;
+            text-shadow: 10px 10px 10px rgba(20, 20, 20);
+            grid-area: Overskrift;
+            margin-top: 40vh;
+    }
+ 
+    .kilder{
+            background: #FFF4A7;
+            padding: 30px;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            border-radius: 15px 15px 15px 15px;
+            box-shadow: 15px 20px 15px rgba(20, 20, 20); 
+            grid-area: kilder;
+            width: 80vw;
+            height: 50vh;
+            margin: 10vw;
+    }
+    .Video{
+            box-shadow: 15px 20px 15px rgba(20, 20, 20);
+            padding: 30px;
+            margin: 15vw;
+            text-align: center;
+            background-color: #FFF4A7;
+            grid-area: Video ;
+            border-radius: 15px 15px 15px 15px;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        "Overskrift"
+        "Video"
+        "Konspirasjonsteori"
+        "ulikeKonspirasjonsteorier"
+        "kilder";
+    }
+
+    @media only screen and (max-width: 900px) {
+        .ulikeKonspirasjonsteorier {
+            flex-direction: column;
+        }
+
+        .Overskrift{
+            width: 20vw;
+            height: 10vh;
+            margin: 10vw;
+            margin-top: 70vh;
+        }
+
+        .ulikeKonspirasjonsteorier div {
+            width: 60vw;
+            height: auto;
+            margin: 3vw;
+        }
+
+        .kilder{
+            width: 70vw;
+            height: auto;
+            margin: 10vw;
+
+        }
+
+     
+
+        .Video{
+            width: 40vw;
+            height: 40vh;
+            margin: 25vw;
+        }
+            
+        .Konspirasjonsteori{
+            width: 60vw;
+            height: 60vh;
+            margin: 20vw;
+     } }
+
+
+    </style>
+</head>
+<body>
+ <div>  
+            <div class="menu-bar">
+                <ul>
+                    <li><a href="#video">Video</a>
+        
+                    <li><a href="#ulikeKonspirasjonsteorier">Konspirasjonsteorier</a>
+           
+                    <li><a href="#konspirasjonsteori">Forklaring</a>
+
+                    <li><a href="#Kilder">Kilder</a>
+                </ul>
+            </div>
+
+             
+        
+            <div class="grid-container">
+
+        
+        
+            <div class="Overskrift"><h1>Konspirasjonsteori</h1></div>
+
+    
+     
+                <video class="Video" width="1000" height="700" controls><source src="Videoer/Konspirasjonsvideo2.mp4" type="video/mp4">  
+                <source src="Konspirasjonsteori.ogg" type="video/ogg">  </video> 
+            
+
+      
+            <div class="Konspirasjonsteori"> 
+                <h3>Hva er konspirasjonsteori</h3>
+                <br><br>
+                    <p> Konspirasjonsteorier er teorier som ikke har blitt bevist. Dette betyr at det ikke er helt sant. ofte inneholder slike teorier skjult informasjon.
+                        det er tre typer Konspirasjonsteorier, hendelser, systemteorier og superkonspirasjoner. 
+                        Hendelser er ofte de som er historiske og er fra fortiden. systemteorier er ofte om grupper som blir sett på som dårlige for andre større grupper. superkonspirasjoner er ofte teorier som er koblet med mange konspirasjonsteorier i en stor uoversiktlig konspirasjon.
+
+                        Problemet med konspirasjonsteorier er at det skaper forhold mellom mennesker som ikke alltid er så bra. det kan skape konflikter mellom de som tror på en ting og de som mener at det bare er tull.</p>
+            </div>
+
+       
+            <div class="ulikeKonspirasjonsteorier">
+                <div class="monelanding"><h1>Månelandingen</h1><img src="Bilder/apollo11.jpg" width="100%" height="50%">Månelandingen har blitt en konspirasjonsteori. Grunnen til det er at mange mener at bildene er laget med greenscreen eller redigert. De mener at månelandingen aldri skjedde og at Nasa har løyet.</div>
+                <div class="jordaerflat"><h1>Jorda er flat</h1><img src="Bilder/Flatearth.jpg" width="100%" height="50%"> At jorda er flat er en stor konspirasjonsteori. det har samlet mange troende til en gruppe. De fleste troende er fra Amerika. De mener at Nasa lyver og at de har prøvd å få mennesker til å tro at jorda er rund. De mener at jorda er en flat sirkel hvor enden er en stor is vegg.</div>
+                <div class="terrorangrepet"><h1>11.september</h1><img src="Bilder/angrepet9:11.jpg" width="100%" height="50%"> 11.september 2001 skjedde et terrorangrep i USA. To fly kjørte rett inn i to bygninger kalt the twin towers. Mange mistet livet og det var en trist hendelse. det har blitt en konspirasjonsteori av dette hvor folk lurer på om det var USA selv som sto bak angrepet. Folk mener at Presidenten Bush ville starte krig mot midtøsten.</div>
+            </div>
+
+
+
+       
+        <div class="kilder"> 
+            <h2>Kilder</h2>
+                <br>
+                    <h3>informasjon</h3>
+                        <li><a href="https://no.wikipedia.org/wiki/Konspirasjonsteori">Wikipedia konspirasjonsteori</a></li>
+                        <li><a href="https://snl.no/konspirasjonsteori">SNL konspirasjonsteori</a></li>
+                        <li><a href="https://ndla.no/nb/subject:1:058bdbdb-aa5a-4a29-88fb-45e664999417/topic:1:537598a2-4857-40e0-b0bc-9a937e954374/topic:1:5fbbe054-1e87-42ef-bd91-5901a58ee5de/resource:05a7dd4e-1df0-4d14-bc01-c77421e01df0">NDLA konspirasjonsteori</a></li>
+                        <li><a href="https://forskning.no/forskningsformidling/derfor-mener-noen-at-jorda-er-flat/1322225">Forskning.no jorda er flat</a></li>
+                        <li><a href="https://www.synonymordboka.no/">synonymordboka</a></li>
+                        <li><a href="https://www.w3schools.com/">w3schools</a></li>
+                <br>
+                    <h3>bilder</h3>
+                        <li><a href="https://commons.wikimedia.org/wiki/File:Physical_world_map_in_Hellerick_triaxial_boreal_projection_-_shallow.jpg">commons wikipedia Flat earth</a></li>
+                        <li><a href="https://www.flickr.com/photos/13476480@N07/48364887671">flickr månelandingen</a></li>
+                        <li><a href="https://commons.wikimedia.org/wiki/File:North_face_south_tower_after_plane_strike_9-11.jpg">commons wikipedia 9/11</a></li>
+                <br>
+                    <h3>Laget av Amund</h3>
+        </div>
+    </div>
+       
+</div>
+</body>
